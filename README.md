@@ -26,3 +26,6 @@ For example, CALL PVHEXEDT PARM('MYFILE' 'MYLIB' 'MBR').
 ![This is an image](screenshot.png)
 
 If your LIB/FILE,MBR path is valid, the screen will load and the navigation keys are displayed at the bottom of the display.
+
+## Additional Notes
+This program was originally written to run on V5R2 using 5250 display in code page 037 and code page 1388. You will require ILE C compiler in addition to RPG and DDS.
